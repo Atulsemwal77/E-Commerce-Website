@@ -43,8 +43,7 @@ const products = [
     name: "Kids Electric Car",
     price: 960,
     // imageClass: "img9",
-    image:
-      "New folder/New-Mercedes-Benz-Gtr-Licensed-Ride-on-Car-Kids-Electric-Toy-Car 1.png",
+    image:"New folder/car.png",
     
   },
   {

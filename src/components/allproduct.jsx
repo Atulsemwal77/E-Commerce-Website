@@ -2,8 +2,8 @@ import React from "react";
 import { useCart } from './hm/CartContext'
 import { Link } from "react-router-dom";
 import { useNavigate } from "react-router-dom";
-import one from "../assets/products/image1.png"
-import car from '../../New folder/car.png'
+import one from "../assets/products/image1.png";
+import car from "../assets/products/car.png"
 
 const products = [
   {

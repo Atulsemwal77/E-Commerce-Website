@@ -17,7 +17,8 @@ const products = [
     name: "CANON EOS DSLR Camera",
     price: 100,
     // imageClass: "img10",
-    image: "New folder/eos-250d-03-500x500 1.png",
+    // image: "New folder/eos-250d-03-500x500 1.png",
+    image: one,
     
   },
   {
@@ -25,7 +26,8 @@ const products = [
     name: "ASUS FHD Gaming Laptop",
     price: 700,
     // imageClass: "img9",
-    image: "/New folder/ideapad-gaming-3i-01-500x500 1.png",
+    // image: "/New folder/ideapad-gaming-3i-01-500x500 1.png",
+    image: one
     
   },
   {

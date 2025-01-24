@@ -52,7 +52,7 @@ const products = [
     name: "Jr. Zoom Soccer Cleats",
     price: 1160,
     // imageClass: "img9",
-    image: "New folder/Copa_Sense 1.png",
+    image: "Newfolder/Copa_Sense 1.png",
 
   },
   {
@@ -60,7 +60,7 @@ const products = [
     name: "GP11 Shooter USB Gamepad",
     price: 660,
     // imageClass: "img9",
-    image: "New folder/GP11_PRD3 1.png",
+    image: "Newfolder/GP11_PRD3 1.png",
     
   },
   {

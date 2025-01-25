@@ -2,7 +2,8 @@ import React from "react";
 import { useCart } from './hm/CartContext'
 import { Link } from "react-router-dom";
 import { useNavigate } from "react-router-dom";
-import one from "../../New folder/image 46.png";
+import one from "../assets/products/productOne.png"
+import two from "../assets/products/eos-250d-03-500x500 1.png"
 import car from "../assets/products/car.png"
 
 const products = [
@@ -20,7 +21,7 @@ const products = [
     price: 100,
     // imageClass: "img10",
     // image: "../assets/products/eos-250d-03-500x500 1.png",
-    // image: one,
+    image: two,
     
   },
   {
@@ -82,7 +83,7 @@ const products = [
     id: 10,
     name: "IPS LCD Gaming Monitor",
     price: 370,
-    image: "../assets/products/g27cq4-500x500\ 1.png"
+    image: "assets/products/ak-900-01-500x500 1.png"
   },
   {
     id: 11,

@@ -4,7 +4,28 @@ import { Link } from "react-router-dom";
 import { useNavigate } from "react-router-dom";
 import one from "../assets/products/productOne.png"
 import two from "../assets/products/eos-250d-03-500x500 1.png"
+import laptop from "../assets/products/ideapad-gaming-3i-01-500x500 1.png"
+import cart from "../assets/products/cart.png"
 import car from "../assets/products/car.png"
+import soccer from '../assets/products/Copa_Sense 1.png'
+import game from '../assets/products/GP11_PRD3 1.png'
+import jacket from '../assets/products/698717_Z8A1X_3475_001_100_0000_Light-Reversible-quilted-satin-jacket 1.png'
+import gamepad from '../assets/products/g92-2-500x500 1.png'
+import monitor from '../assets/products/g27cq4-500x500 1.png'
+import keyboard from '../assets/products/ak-900-01-500x500 1.png'
+import chair from '../assets/products/sam-moghadam-khamseh-kvmdsTrGOBM-unsplash 1.png'
+import bag from '../assets/products/547953_9C2ST_8746_001_082_0000_Light-Gucci-Savoy-medium-duffle-bag 1.png'
+import coat from '../assets/products/672462_ZAH9D_5626_002_100_0000_Light-The-North-Face-x-Gucci-coat 1.png'
+import bookself from '../assets/products/sam-moghadam-khamseh-L_7MQsHl_aU-unsplash 1.png'
+import cpu from '../assets/products/gammaxx-l240-argb-1-500x500 1.png'
+import headphon from '../assets/products/download.jpeg'
+import mackbook from '../assets/products/download (1).jpeg'
+import s23 from '../assets/products/download (2).jpeg'
+import speaker from '../assets/products/download (4).jpeg'
+import watch from '../assets/products/download (3).jpeg'
+import cam from '../assets/products/download (5).jpeg'
+import blt from '../assets/products/69-694768_amazon-echo-png-clipart-transparent-amazon-echo-png 1.png'
+
 
 const products = [
   {
@@ -19,8 +40,6 @@ const products = [
     id: 2,
     name: "CANON EOS DSLR Camera",
     price: 100,
-    // imageClass: "img10",
-    // image: "../assets/products/eos-250d-03-500x500 1.png",
     image: two,
     
   },
@@ -29,8 +48,7 @@ const products = [
     name: "ASUS FHD Gaming Laptop",
     price: 700,
     // imageClass: "img9",
-    // image: "/../assets/products/ideapad-gaming-3i-01-500x500 1.png",
-    // image: one
+    image: laptop
     
   },
   {
@@ -38,7 +56,7 @@ const products = [
     name: "Curology Product Set",
     price: 500,
     // imageClass: "img9",
-    image: "../assets/products/Cart.png",
+    image: cart,
     
   },
   {
@@ -54,7 +72,7 @@ const products = [
     name: "Jr. Zoom Soccer Cleats",
     price: 1160,
     // imageClass: "img9",
-    image: "Newfolder/Copa_Sense 1.png",
+    image: soccer
 
   },
   {
@@ -62,7 +80,7 @@ const products = [
     name: "GP11 Shooter USB Gamepad",
     price: 660,
     // imageClass: "img9",
-    image: "Newfolder/GP11_PRD3 1.png",
+    image: game,
     
   },
   {
@@ -70,101 +88,100 @@ const products = [
     name: "Quilted Stain Jacket",
     price: 660,
     // imageClass: "img9",
-    image:
-      "../assets/products/698717_Z8A1X_3475_001_100_0000_Light-Reversible-quilted-satin-jacket 1.png",
+    image: jacket
   },
   {
     id: 9,
     name: "HAVIT HV-G92 Gamepad",
     price: 120,
-    image : "../assets/products/g92-2-500x500 1.png"
+    image : gamepad
   },
   {
     id: 10,
     name: "IPS LCD Gaming Monitor",
     price: 370,
-    image: "assets/products/ak-900-01-500x500 1.png"
+    image: monitor
   },
   {
     id: 11,
     name: "Ak-900 Wired Keyboard",
     price: 960,
-    image: "../assets/products/ak-900-01-500x500\ 1.png"
+    image: keyboard
     
   },
   {
     id: 12,
     name: "S-Series Comfort Chair",
     price: 375,
-    image:"../assets/products/sam-moghadam-khamseh-kvmdsTrGOBM-unsplash\ 1.png"
+    image:chair
 },
 {
   id: 13,
   name: 'Gucci Duffle Bag',
   price: 960,
-  image:"../assets/products/547953_9C2ST_8746_001_082_0000_Light-Gucci-Savoy-medium-duffle-bag 1.png",
+  image:bag,
   
 },
 {
   id: 14,
   name: 'The North Coat',
   price: 260,
-  image:"../assets/products/672462_ZAH9D_5626_002_100_0000_Light-The-North-Face-x-Gucci-coat 1.png",
+  image:coat
   
 },
 {
   id: 15,
   name: 'Small BookSelf',
   price: 360,
-  image:"../assets/products/sam-moghadam-khamseh-L_7MQsHl_aU-unsplash 1.png",
+  image: bookself
   },
 {
   id: 16,
   name: 'RGB liquid CPU Cooler',
   price: 260,
-  image:"../assets/products/gammaxx-l240-argb-1-500x500 1.png",
+  image: cpu,
   },
   {
     id: 17,
     name: 'Sony WH-1000XM4 Headphones',
     price: 350,
-    image: "../assets/products/download.jpeg",
+    image: headphon
   },
   {
     id: 18,
     name: 'Apple MacBook Pro',
     price: 1999,
-    image: "../assets/products/download (1).jpeg",
+    image: mackbook,
   },
   {
     id: 19,
     name: 'Samsung Galaxy S23',
     price: 1199,
-    image: "../assets/products/download (2).jpeg",
+    image: s23,
   },
   {
     id: 20,
     name: 'Speaker',
     price: 150,
-    image: "../assets/products/download (4).jpeg",
+    image: speaker,
   },
   {
     id: 21,
     name: 'Rolex Submariner Watch',
     price: 10999,
-    image: "../assets/products/download (3).jpeg",
+    image: watch,
   },
   {
     id: 22,
     name: 'Canon EOS R5 Camera',
     price: 3899,
-    image: "../assets/products/download (5).jpeg",
+    image: cam,
   },
   {
     id: 23,
     name: 'Bose SoundLink Bluetooth Speaker',
     price: 299,
-    image: "../assets/products/69-694768_amazon-echo-png-clipart-transparent-amazon-echo-png 1.png",
+    image: blt,
   },
 
 ];

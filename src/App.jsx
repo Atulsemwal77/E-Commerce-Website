@@ -20,11 +20,6 @@ import Allproduct from './components/allproduct'
 import Account from './components/Account';
 import Logout from './components/Logout'
 
-
-
-
-
-
 function App (){
 
   return (

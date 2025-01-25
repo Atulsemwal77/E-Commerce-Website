@@ -1,61 +1,7 @@
-// import { useNavigate } from "react-router-dom";
-// const Sign =()=>{
-
-//     const navigate = useNavigate();
-//     return(
-//         <>
-//         <div class="container"> 
-//     <div class="row my-5">
-//         <div class="col-md-6 p-2">
-//             <img src="New folder/dl.beatsnoop 1.png" class="img-fluid"/>
-//         </div>
-
-//         <div class="col-md-6 py-5">
-//             <div class=" mb-5">
-//                 <h4>Create an account</h4>
-//                 <p>Enter Your Details below.</p>
-        
-//             </div>
-//             <form class="row g-3">
-//                 <div class="col-md-12">
-                  
-//                   <input type="email" class="form-control" id="inputEmail4" placeholder="Name"/>
-//                 </div>
-//                 <div class="col-md-12">
-                  
-//                   <input type="password" class="form-control" id="inputPassword4" placeholder=" Email or Phone Number"/>
-//                 </div>
-//                 <div class="col-md-12">
-                
-//                   <input type="password" class="form-control" id="inputPassword4 " placeholder=" Password"/>
-//                 </div>
-                
-//                 <div class="d-grid col-12 ">
-//                     <button class="btn btn-danger " type="button">Create Account</button>
-//                 </div>
-//                 <div class="g-col-6 text-center">-----------------------Or-----------------------</div>
-//                 <div class="d-grid col-12">
-//                     <button class="btn btn-outline-dark p-2" type="button"><i class="bi bi-google me-2"></i>LogIn With Google</button>
-//                 </div>
-//                 <div class="d-grid col-12 text-end">
-                
-//                     <p className="d-inline  align-item-center">Already have an account ?<br></br>
-//                         <div className="btn btn-danger mt-4 " onClick={() => navigate("/Login")}>login</div></p>
-            
-//                 </div>
-//             </form>
-//         </div>
-//     </div>
-//     </div>
-    
-
-//         </>
-//     )
-// }
-// export default Sign;
 
 import React ,{useState} from "react";
 import { Link ,useNavigate } from "react-router-dom";
+import img from '../assets/products/dl.beatsnoop 1.png'
 
 const Sign =()=>{
     const initialUserDetail = {
@@ -105,7 +51,7 @@ const Sign =()=>{
         <div class="container"> 
     <div class="row my-5">
         <div class="col-md-6 p-2">
-            <img src="New folder/dl.beatsnoop 1.png" class="img-fluid"/>
+            <img src={img} class="img-fluid"/>
         </div>
 
         <div class="col-md-6 py-2">

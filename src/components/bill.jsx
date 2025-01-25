@@ -24,6 +24,7 @@
 
 
 import { useCart } from "./hm/CartContext";
+import cash from '../assets/products/Frame 834.png'
 // const items = [
 //   {
 //     id: 1,
@@ -134,7 +135,7 @@ const BillingDetails = () => {
               <label className="form-check-label" htmlFor="bankTransfer">
                 Bank &nbsp;
                 <img
-                  src="New folder/Frame 834.png"
+                  src={cash}
                   alt=""
                   height="18px"
                   className="img-fluid mx-3"

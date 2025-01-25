@@ -5,8 +5,7 @@ import { useNavigate } from "react-router-dom";
 import one from "../assets/products/productOne.png"
 import two from "../assets/products/eos-250d-03-500x500 1.png"
 import laptop from "../assets/products/ideapad-gaming-3i-01-500x500 1.png"
-// import cart from "../assets/products/cart.png"
-// import cart from '../assets/products/cart.png'
+import cart from '../assets/products/creame.png'
 import car from "../assets/products/car.png"
 import soccer from '../assets/products/Copa_Sense 1.png'
 import game from '../assets/products/GP11_PRD3 1.png'
@@ -57,7 +56,7 @@ const products = [
     name: "Curology Product Set",
     price: 500,
     // imageClass: "img9",
-    // image: cart,
+    image: cart,
     
   },
   {

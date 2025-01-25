@@ -2,6 +2,12 @@ import React from "react";
 import { useNavigate } from "react-router-dom";
 import { useCart } from "./CartContext";
 
+import gamepad from '../../assets/products/g92-2-500x500 1.png'
+import monitor from '../../assets/products/g27cq4-500x500 1.png'
+import keyboard from '../../assets/products/ak-900-01-500x500 1.png'
+import chair from '../../assets/products/sam-moghadam-khamseh-kvmdsTrGOBM-unsplash 1.png'
+
+
 
 
 const ProductList = () => {
@@ -16,7 +22,7 @@ const ProductList = () => {
       price: 120,
       oldPrice: 160,
       discount: "-40%",
-      image: "New folder/g92-2-500x500 1.png",
+      image: gamepad,
       rating: 5,
       reviews: 88,
     },
@@ -26,7 +32,7 @@ const ProductList = () => {
       price: 370,
       oldPrice: 400,
       discount: "-30%",
-      image: "New folder/g27cq4-500x500\ 1.png" ,
+      image: monitor ,
     
       rating: 5,
       reviews: 99,
@@ -37,7 +43,7 @@ const ProductList = () => {
       price: 960,
       oldPrice: 1160,
       discount: "-35%",
-      image: "New folder/ak-900-01-500x500\ 1.png", 
+      image: keyboard, 
       rating: 4.5,
       reviews: 75,
     },
@@ -47,7 +53,7 @@ const ProductList = () => {
       price: 375,
       oldPrice: 400,
       discount: "-25%",
-      image: "New folder/sam-moghadam-khamseh-kvmdsTrGOBM-unsplash\ 1.png", 
+      image: chair, 
       rating: 4.5,
       reviews: 99,
 

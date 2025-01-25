@@ -1,3 +1,4 @@
+import women from '../../assets/products/portrait-two-african-females-holding-shopping-bags-while-reacting-something-their-smartphone 1.png';
 const Cont9 =()=>{
 
     return(
@@ -19,7 +20,7 @@ const Cont9 =()=>{
             </div>
         </div>
         <div class="col-lg-6 col-md-10 text-center">
-           <img src="New folder/portrait-two-african-females-holding-shopping-bags-while-reacting-something-their-smartphone 1.png" alt="" class="img-fluid" style={{width: "auto",height: "400px "}}/>
+           <img src={women} alt="" class="img-fluid" style={{width: "auto",height: "400px "}}/>
         </div>
     </div>
     <div class="container my-4">

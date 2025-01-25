@@ -1,4 +1,9 @@
 import React from 'react';
+import bag from '../../assets/products/547953_9C2ST_8746_001_082_0000_Light-Gucci-Savoy-medium-duffle-bag 1.png'
+import coat from '../../assets/products/672462_ZAH9D_5626_002_100_0000_Light-The-North-Face-x-Gucci-coat 1.png'
+import bookself from '../../assets/products/sam-moghadam-khamseh-L_7MQsHl_aU-unsplash 1.png'
+import cpu from '../../assets/products/gammaxx-l240-argb-1-500x500 1.png'
+
 
 
 const ProductList =()=>{
@@ -12,7 +17,7 @@ const products = [
     price: 960,
     oldPrice: 1160,
     rating: 4.5,
-    image: "New folder/547953_9C2ST_8746_001_082_0000_Light-Gucci-Savoy-medium-duffle-bag 1.png",
+    image: bag,
   },
   {
     id: 2,
@@ -20,7 +25,7 @@ const products = [
     price: 260,
     oldPrice: 360,
     rating: 5,
-    image: "New folder/672462_ZAH9D_5626_002_100_0000_Light-The-North-Face-x-Gucci-coat 1.png",
+    image: coat,
   },
   {
     id: 3,
@@ -28,7 +33,7 @@ const products = [
     price: 360,
     oldPrice: null,
     rating: 5,
-    image: "New folder/sam-moghadam-khamseh-L_7MQsHl_aU-unsplash 1.png",
+    image: bookself,
   },
   {
     id: 4,
@@ -36,7 +41,7 @@ const products = [
     price: 260,
     oldPrice: 160,
     rating: 4.5,
-    image: "New folder/gammaxx-l240-argb-1-500x500 1.png",
+    image:cpu,
   },
 ];
 return (
